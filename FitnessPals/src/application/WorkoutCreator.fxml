@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="240.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.WorkoutController">
+   <children>
+      <ImageView fitHeight="86.0" fitWidth="186.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../OneDrive/Desktop/FitnessPals%20Logo.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="done" layoutX="60.0" layoutY="348.0" mnemonicParsing="false" onAction="#backToWorkouts" prefHeight="37.0" prefWidth="119.0" style="-fx-background-color: #880015;" text="Done" textFill="WHITE" />
+      <TextField layoutX="15.0" layoutY="179.0" />
+      <TextField layoutX="15.0" layoutY="153.0" />
+      <TextField layoutX="15.0" layoutY="205.0" />
+      <TextField layoutX="15.0" layoutY="231.0" />
+      <TextField layoutX="15.0" layoutY="257.0" />
+      <Spinner layoutX="16.0" layoutY="312.0" />
+      <Label layoutX="16.0" layoutY="295.0" text="Rest Time" />
+      <Label layoutX="20.0" layoutY="135.0" text="Exercise" />
+      <Label layoutX="7.0" layoutY="90.0" prefHeight="37.0" prefWidth="246.0" text="Rest time will be half the work time" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="workoutSelector" layoutX="21.0" layoutY="48.0" prefWidth="150.0" visible="false" />
+   </children>
+</AnchorPane>
