@@ -39,9 +39,9 @@
       <Button layoutX="21.0" layoutY="113.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="155.0" text="Custom Workout 1" />
       <Button layoutX="21.0" layoutY="148.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="155.0" text="Custom Workout 2" />
       <Label layoutX="11.0" layoutY="244.0" text="Featured Workouts" />
-      <Hyperlink layoutX="11.0" layoutY="308.0" text="Hyperlink" />
-      <Hyperlink layoutX="11.0" layoutY="285.0" text="Hyperlink" />
-      <Hyperlink layoutX="11.0" layoutY="262.0" text="Hyperlink" />
+      <Hyperlink layoutX="11.0" layoutY="308.0" text="Featured Workout #3" />
+      <Hyperlink layoutX="11.0" layoutY="285.0" text="Featured Workout #2" />
+      <Hyperlink layoutX="11.0" layoutY="262.0" text="Featured Workout #1" />
       <TextField layoutY="187.0" prefHeight="26.0" prefWidth="240.0" text="George H just hit a workout! (5 mins ago)" />
    </children>
 </AnchorPane>
